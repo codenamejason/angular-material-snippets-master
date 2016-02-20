@@ -21,64 +21,31 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 | **Shortcut Prefix** | **Description** |
 |`md-autocomplete:full` | all autocomplete options|
 |`md-autocomplete:tpl` | all autocomplete options with custom template|
-
-| Button | |
-|---|---|
-|**Shortcut Prefix** | **Description** |
+| **Button** | |
 |`md-button:standard` | standard button no options|
 |`md-button:full` | standard button with all options|
 |`md-button:icon` | standard button with icon|
 |`md-button:fab-icon` | fab icon button|
 |`md-button:fab-mini-icon` | mini fab icon button|
-
-| Card | |
-|---|---|
-|**Shortcut Prefix** | **Description** |
+| **Card** | |
 |`md-card:standard` | standard card|
-
-| Checkbox | |
-|---|---|
-|**Shortcut Prefix** | **Description** |
+| **Checkbox** | |
 |`md-checkbox:full` | checkbox full options|
-
-| Chip | |
-|---|---|
-|**Shortcut Prefix** | **Description** |
+| **Chip** | |
 |`md-chip:single` |  single md-chip item|
-
-| Layout | |
-|---|---|
-|**Shortcut Prefix** | **Description** |
+| **Layout** | |
 |`md-layout` |  the md-content tag with layout options|
-
-| Datepicker | |
-|---|---|
-|**Shortcut Prefix** | **Description** |
+| **Datepicker** | |
 |`md-dialog:standard` |  date picker with full options|
-
-| Dialog | |
-|---|---|
-|**Shortcut Prefix** | **Description** |
+| **Dialog** | |
 |`md-datepicker:full` |  standard dialog|
-
-| Divider | |
-|---|---|
-|**Shortcut Prefix** | **Description** |
+| **Divider** | |
 |`md-divider` |  simple divider|
-
-| Ink Ripple | |
-|---|---|
-|**Shortcut Prefix** | **Description** |
+| **Ink Ripple** | |
 |`md-ink-ripple` | md-ink-ripple options|
-
-| Whiteframe | |
-|---|---|
-|**Shortcut Prefix** | **Description** |
+| **Whiteframe** | |
 |`md-whiteframe` | md-whiteframe options|
-
-| Swipe | |
-|---|---|
-|**Shortcut Prefix** | **Description** |
+| **Swipe** | |
 |`md-swipe` | swipe options|
 
 
