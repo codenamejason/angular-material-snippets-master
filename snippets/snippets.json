@@ -79,5 +79,49 @@
             "</md-autocomplete>"
         ],
         "description": "angular material : all auto complete options with custom template"
+    },
+    "md-button": {
+        "prefix": "md-button:standard",
+        "body": [
+            "<md-button aria-label=\"${1:button-label}\"> ${1:button-label} </md-button>"
+        ],
+        "description":"angular material : standard button no options"
+    },
+    "md-button-full": {
+        "prefix": "md-button:full",
+        "body": [
+            "<md-button ${href=\"${1:url}\"} ${id=\"${2:button-id}\"} class=\"${3:button-class}\" ${ng-disabled=\"true\"} ${md-ripple-size=\"${4:full | partial | auto}\"} ${md-no-ink=\"true\"} aria-label=\"${5:button-label}\"> ${5:button-label} </md-button>"
+        ],
+        "description":"angular material : standard button with all options"
+    },
+     "md-button-icon": {
+        "prefix": "md-button:icon",
+        "body": [
+            "<md-button aria-label=\"${1:button-label}\">",
+            "   <md-icon md-svg-src=\"${your/icon}.svg\"></md-icon>",
+            "   ${1:button-label}",
+            "</md-button>"
+        ],
+        "description":"angular material : standard button with icon"
+    },
+    "md-button-fab": {
+        "prefix": "md-button:fab-icon",
+        "body": [
+            "<md-button aria-label=\"${1:button-label}\" class=\"md-fab\">",
+            "   <md-icon md-svg-src=\"${your/icon}.svg\"></md-icon>",
+            "   ${1:button-label}",
+            "</md-button>"
+        ],
+        "description":"angular material : fab icon button"
+    },
+     "md-button-mini-fab": {
+        "prefix": "md-button:fab-mini-icon",
+        "body": [
+            "<md-button aria-label=\"${1:button-label}\" class=\"md-mini\">",
+            "   <md-icon md-svg-src=\"${your/icon}.svg\"></md-icon>",
+            "   ${1:button-label}",
+            "</md-button>"
+        ],
+        "description":"angular material : mini fab icon button"
     }
 }

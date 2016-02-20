@@ -17,10 +17,21 @@ Added a little lint test using  [gulp-jsonlint](https://www.npmjs.com/package/gu
 
 *Below are the currently added shortcuts*
 
-|Shortcut Prefix | Description|
+| Autocomplete | |
 |---|---|
-|`md-autocomplete:full` | angular material : all auto complete options|
-|`md-autocomplete:tpl` | angular material : all auto complete options with custom template|
+|Shortcut Prefix | Description|
+|`md-autocomplete:full` | all autocomplete options|
+|`md-autocomplete:tpl` | all autocomplete options with custom template|
+
+| Button | |
+|---|---|
+|Shortcut Prefix | Description|
+|`md-button:standard` | standard button no options|
+|`md-button:full` | standard button with all options|
+|`md-button:icon` | standard button with icon|
+|`md-button:fab-icon` | fab icon button|
+|`md-button:fab-mini-icon` | mini fab icon button|
+
 
 ## RoadMap
 Depends heavily of the migration of angular material to angular2.
