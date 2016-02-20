@@ -4,5 +4,14 @@
 
 A set of Angular Material Snippets for Visual Studio Code.
 
-*Extension is still in progress.* 
+**Extension is still in progress.** 
 
+
+## License
+
+[MIT License] 
+
+[![License][license-badge]][MIT License]
+
+[MIT License]: http://en.wikipedia.org/wiki/MIT_License
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
