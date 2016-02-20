@@ -371,6 +371,23 @@
        ],
       "description": "angular material : standard slider"
     },
+    "md-switch": {
+      "prefix": "md-switch:full",
+      "body": [
+            "<md-switch ${md-no-ink}",
+            "           name=${name}", 
+            "           ${ng-true-value=\"${expression}\"}",
+            "           ${ng-false-value=\"${expression}\"}",
+            "           ${ng-change=\"${string}\"}",
+            "           ${ng-disabled=\"${expression}\"}",
+            "           ${ng-model=\"${model}\"}",
+            "           aria-label=\"{label}\"",
+                        ">",
+            "  ${content}",
+            "</md-switch>"
+       ],
+      "description": "angular material : switch full options"
+    },
     "md-subheader": {
       "prefix": "md-subheader",
       "body": [
