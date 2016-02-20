@@ -63,10 +63,14 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 |`md-whiteframe` | md-whiteframe options|
 | **Slider** | |
 |`md-slider:standard` | slider|
+| **Swtich** | |
+|`md-switch:full` | switch full options|
 | **Subheader** | |
 |`md-subheader` | subheader|
 | **Swipe** | |
 |`md-swipe` | swipe options|
+| **ToolTip** | |
+|`md-tooltip` | tooltip full options|
 
 
 ## Json lint Test

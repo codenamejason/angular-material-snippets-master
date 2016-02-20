@@ -401,6 +401,15 @@
           "md-swipe-${2:top|right|bottom|left}=\"${onSwipe()}\""
        ],
       "description": "angular material :  swipe options"
-    }
+    },
+    "md-tooltip": {
+      "prefix": "md-tooltip:full",
+      "body": [
+            "<md-tooltip ${md-visible=\"${expression}\"} ${md-delay=\"${number}\"} ${md-autohide=\"${boolean}\"} ${md-direction=${string}}>",
+            "  ${content}",
+            "</md-tooltip>"    
+       ],
+      "description": "angular material : tool tip full options"
+    },
     
 }
