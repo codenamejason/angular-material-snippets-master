@@ -2,6 +2,8 @@
 
 # Angular Material Snippets
 
+<img src="https://gerdi.visualstudio.com/DefaultCollection/_apis/public/build/definitions/1f9f9a18-b192-4a1e-aee8-858193d76db5/2/badge">
+
 A set of Angular Material Snippets for Visual Studio Code.
 
 **Extension is still in progress.**
