@@ -4,7 +4,12 @@
 
 A set of Angular Material Snippets for Visual Studio Code.
 
-**Extension is still in progress.** 
+**Extension is still in progress.**
+
+## Json lint Test
+Added a little lint test using  [gulp-jsonlint](https://www.npmjs.com/package/gulp-jsonlint).
+node_modules are NOT added to the repo, if you would like to run the lint first run `>npm install`
+to get gulp ang gulp-jsonlint. 
 
 
 ## License
