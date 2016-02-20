@@ -1,7 +1,4 @@
 {
-    /**
-     * md-autocomplete
-     */
     "md-autocomplete": {
         "prefix": "md-autocomplete:full",
         "body": [
@@ -83,10 +80,6 @@
         ],
         "description": "angular material : all auto complete options with custom template"
     },
-    
-    /**
-     * md-button
-     */
     "md-button": {
         "prefix": "md-button:standard",
         "body": [
@@ -131,10 +124,6 @@
         ],
         "description": "angular material : mini fab icon button"
     },
-    
-    /**
-     * md-card
-     */
      "md-card": {
         "prefix": "md-card:standard",
         "body": [
@@ -152,10 +141,6 @@
         ],
         "description": "angular material : standard card"
     },
-    
-    /**
-     * md-checkbox
-     */
      "md-checkbox": {
         "prefix": "md-checkbox:full",
         "body": [
@@ -163,10 +148,6 @@
         ],
         "description": "angular material : checkbox full options"
     },
-    
-    /**
-    * md-chip
-    */
     "md-chip": {
       "prefix": "md-chip:single",
       "body": [
@@ -174,10 +155,6 @@
        ],
       "description": "angular material : single md-chip"
     },
-    
-    /**
-    * md-layout
-    */
     "md-layout": {
       "prefix": "md-layout",
       "body": [
@@ -187,10 +164,6 @@
        ],
       "description": "angular material : the md-content tag with layout options"
     },
-    
-    /**
-    * md-datepicker
-    */
     "md-datepicker": {
       "prefix": "md-datepicker:full",
       "body": [
@@ -198,10 +171,6 @@
        ],
       "description": "angular material : date picker with full options"
     },
-    
-    /**
-    * md-Dialog
-    */
     "md-dialog": {
       "prefix": "md-dialog:standard",
       "body": [
@@ -216,10 +185,6 @@
        ],
       "description": "angular material : standard dialog"
     },
-    
-    /**
-    * md-divider
-    */
     "md-divider": {
       "prefix": "md-divider",
       "body": [
@@ -227,10 +192,6 @@
        ],
       "description": "angular material : divider"
     },
-    
-    /**
-    * md-icon
-    */
     "md-icon": {
       "prefix": "md-icon",
       "body": [
@@ -238,10 +199,6 @@
        ],
       "description": "angular material : standard md-icon"
     },
-    
-    /**
-    * md-ink-ripple
-    */
     "md-ink-ripple": {
       "prefix": "md-ink-ripple",
       "body": [
@@ -249,10 +206,6 @@
        ],
       "description": "angular material : md-ink-ripple options"
     },
-    
-    /**
-    * md-whiteframe
-    */
     "md-whiteframe": {
       "prefix": "md-whiteframe",
       "body": [
@@ -260,10 +213,6 @@
        ],
       "description": "angular material : md-whiteframe options"
     },
-    
-    /**
-    * md-swipe
-    */
     "md-swipe": {
       "prefix": "md-swipe",
       "body": [
