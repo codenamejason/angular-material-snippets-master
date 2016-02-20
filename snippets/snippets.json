@@ -1,4 +1,7 @@
 {
+    /**
+     * md-autocomplete
+     */
     "md-autocomplete": {
         "prefix": "md-autocomplete:full",
         "body": [
@@ -80,21 +83,25 @@
         ],
         "description": "angular material : all auto complete options with custom template"
     },
+    
+    /**
+     * md-button
+     */
     "md-button": {
         "prefix": "md-button:standard",
         "body": [
             "<md-button aria-label=\"${1:button-label}\"> ${1:button-label} </md-button>"
         ],
-        "description":"angular material : standard button no options"
+        "description": "angular material : standard button no options"
     },
     "md-button-full": {
         "prefix": "md-button:full",
         "body": [
             "<md-button ${href=\"${1:url}\"} ${id=\"${2:button-id}\"} class=\"${3:button-class}\" ${ng-disabled=\"true\"} ${md-ripple-size=\"${4:full | partial | auto}\"} ${md-no-ink=\"true\"} aria-label=\"${5:button-label}\"> ${5:button-label} </md-button>"
         ],
-        "description":"angular material : standard button with all options"
+        "description": "angular material : standard button with all options"
     },
-     "md-button-icon": {
+    "md-button-icon": {
         "prefix": "md-button:icon",
         "body": [
             "<md-button aria-label=\"${1:button-label}\">",
@@ -102,7 +109,7 @@
             "   ${1:button-label}",
             "</md-button>"
         ],
-        "description":"angular material : standard button with icon"
+        "description": "angular material : standard button with icon"
     },
     "md-button-fab": {
         "prefix": "md-button:fab-icon",
@@ -112,9 +119,9 @@
             "   ${1:button-label}",
             "</md-button>"
         ],
-        "description":"angular material : fab icon button"
+        "description": "angular material : fab icon button"
     },
-     "md-button-mini-fab": {
+    "md-button-mini-fab": {
         "prefix": "md-button:fab-mini-icon",
         "body": [
             "<md-button aria-label=\"${1:button-label}\" class=\"md-mini\">",
@@ -122,6 +129,147 @@
             "   ${1:button-label}",
             "</md-button>"
         ],
-        "description":"angular material : mini fab icon button"
+        "description": "angular material : mini fab icon button"
+    },
+    
+    /**
+     * md-card
+     */
+     "md-card": {
+        "prefix": "md-card:standard",
+        "body": [
+            "<md-card>",
+            "  <img src=\"${card-image.png}\" class=\"md-card-image\" alt=\"${image caption}\">",
+            "  <md-card-content>",
+            "    <h2>${Card headline}</h2>",
+            "    <p>${Card content}</p>",
+            "  </md-card-content>",
+            "  <md-card-actions layout=\"row\" layout-align=\"${end center}\">",
+            "    <md-button>${Action 1}</md-button>",
+            "    <md-button>${Action 2}</md-button>",
+            "  </md-card-actions>",
+            "</md-card>"
+        ],
+        "description": "angular material : standard card"
+    },
+    
+    /**
+     * md-checkbox
+     */
+     "md-checkbox": {
+        "prefix": "md-checkbox:full",
+        "body": [
+           "<md-checkbox ${ng-model=\"${1:model}\"} ${name=\"${2:name}\"} ${ng-true-value=\"${3:true-value}\"} ${ng-false-value=\"${4:false-value}\"} ${ng-change=\"${5:change-value}\"} ${md-no-ink=\"true\"} aria-label=\"${6:label}\"> ${6:label} <md-checkbox>"
+        ],
+        "description": "angular material : checkbox full options"
+    },
+    
+    /**
+    * md-chip
+    */
+    "md-chip": {
+      "prefix": "md-chip:single",
+      "body": [
+          "<md-chip>{{$chip}}</md-chip>"
+       ],
+      "description": "angular material : single md-chip"
+    },
+    
+    /**
+    * md-layout
+    */
+    "md-layout": {
+      "prefix": "md-layout",
+      "body": [
+          "<md-content layout-${padding|fill|wrap|nowrap|margin} ${layout=\"${2:row | column}\"} ${layout-align=\"${3:start|center|end|space-around|space-between} ${4:start|center|end|stretch}\"}>",
+          "  ${5:content}",
+          "</md-content>"
+       ],
+      "description": "angular material : the md-content tag with layout options"
+    },
+    
+    /**
+    * md-datepicker
+    */
+    "md-datepicker": {
+      "prefix": "md-datepicker:full",
+      "body": [
+          "<md-datepicker ${ng-model=\"${1:model}\"} ${ng-ng-change=\"${2:expression}\"} ${ng-min-date=\"${3:Date}\"}  ${ng-max-date=\"${4:Date}\"}  ${ng-date-filter=\"${5:function(Date): boolean}\"} ${md-placeholder=\"${6:String}\"} ${ng-disabled=\"true\"} ${ng-required=\"true\"}></md-datepicker>"
+       ],
+      "description": "angular material : date picker with full options"
+    },
+    
+    /**
+    * md-Dialog
+    */
+    "md-dialog": {
+      "prefix": "md-dialog:standard",
+      "body": [
+        "<md-dialog aria-label=\"${}\">",
+        "   <md-dialog-content>",
+        "      ${content}",
+        "   </md-dialog-content>",
+        " <md-dialog-actions>",
+        "   <md-button ng-click=\"closeDialog()\" class=\"md-primary\">Close Dialog</md-button>",
+        " </md-dialog-actions>",
+        "</md-dialog>"
+       ],
+      "description": "angular material : standard dialog"
+    },
+    
+    /**
+    * md-divider
+    */
+    "md-divider": {
+      "prefix": "md-divider",
+      "body": [
+          "<md-divider ${md-inset}></md-divider>"
+       ],
+      "description": "angular material : divider"
+    },
+    
+    /**
+    * md-icon
+    */
+    "md-icon": {
+      "prefix": "md-icon",
+      "body": [
+          "<md-icon md-svg-src=\"${1:url-of-icon}\" aria-label=\"${2:label}\" alt=\"${3:alternate}\"></md-icon>"
+       ],
+      "description": "angular material : standard md-icon"
+    },
+    
+    /**
+    * md-ink-ripple
+    */
+    "md-ink-ripple": {
+      "prefix": "md-ink-ripple",
+      "body": [
+          "md-ink-ripple=\"{{ string (color) | boolean }}\""
+       ],
+      "description": "angular material : md-ink-ripple options"
+    },
+    
+    /**
+    * md-whiteframe
+    */
+    "md-whiteframe": {
+      "prefix": "md-whiteframe",
+      "body": [
+          "md-whiteframe=\"${number (dp)}\""
+       ],
+      "description": "angular material : md-whiteframe options"
+    },
+    
+    /**
+    * md-swipe
+    */
+    "md-swipe": {
+      "prefix": "md-swipe",
+      "body": [
+          "md-swipe-${2:top|right|bottom|left}=\"${onSwipe()}\""
+       ],
+      "description": "angular material :  swipe options"
     }
+    
 }

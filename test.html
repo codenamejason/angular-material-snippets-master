@@ -1,13 +1,1 @@
-<md-autocomplete md-items="test in testctrl.querySearch(testctrl.search)" md-item-text="test.testdisplay" ng-disabled="testctrl.isDisabled"
-md-no-cache="testctrl.noCache" md-selected-item="testctrl.selectedItem" md-search-text-change="testctrl.searchTextChange(testctrl.search)"
-md-search-text="testctrl.search" md-selected-item-change="testctrl.selectedItemChange(item)" md-min-length="3" md-max-length="6"
-md-select-on-match="true" md-input-id="input-ID" md-input-name="nameAttribute" md-menu-class="dropdown-class" md-autoselect="true"
-placeholder="test">
-    <md-item-template>
-        <span md-highlight-text="testctrl.search" md-highlight-flags="^i">{{test.testdisplay}}</span>
-    </md-item-template>
-    <md-not-found>
-        No states matching "{{testctrl.search}}" were found.
-        <a ng-click="testctrl.newState(testctrl.search)">new thing</a>
-    </md-not-found>
-</md-autocomplete>
+<md-checkbox ng-model="model" name="name" ng-true-value="true-value" ng-false-value="false-value" ng-change="change-value" md-no-ink="true" aria-label="label"> label <md-checkbox>
