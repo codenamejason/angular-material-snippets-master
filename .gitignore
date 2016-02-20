@@ -2,3 +2,4 @@
 *.vsix
 test.html
 node_modules/*
+!node_modules/gulp/*
