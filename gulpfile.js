@@ -1,6 +1,6 @@
-var gulp     = require('gulp'),
-    jsonLint = require('gulp-jsonlint'),
-    gutil    = require('gulp-util');
+var gulp      = require('gulp'),
+    jsonLint  = require('gulp-jsonlint'),
+    gutil     = require('gulp-util');
 
 // Reporter
 var jsonReporter = function(file){
@@ -15,3 +15,4 @@ gulp.task('default', function() {
           .pipe(jsonLint.reporter(jsonReporter))
           .pipe(jsonLint.failOnError()); // 
 });
+
