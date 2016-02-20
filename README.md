@@ -6,6 +6,8 @@
 
 A set of Angular Material Snippets for Visual Studio Code. See https://material.angularjs.org/latest/ for full details on angular material.
 
+![](images/example.gif)
+
 ## Json lint Test
 Added a little lint test using  [gulp-jsonlint](https://www.npmjs.com/package/gulp-jsonlint).
 
