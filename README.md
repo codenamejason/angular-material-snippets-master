@@ -5,7 +5,7 @@
 
 A set of [Angular Material](https://material.angularjs.org/latest) Snippets for [Visual Studio Code](https://code.visualstudio.com/). 
 
-![](images/example.gif)
+![](https://raw.githubusercontent.com/4tron/angular-material-snippets-master/master/images/example.gif)
 
 *Shift + Alt + f =  formats the code*
 
