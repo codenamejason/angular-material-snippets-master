@@ -192,6 +192,73 @@
        ],
       "description": "angular material : divider"
     },
+    "md-fab-speed-dial": {
+      "prefix": "md-fab-speed-dial",
+      "body": [
+            "<md-fab-speed-dial md-direction=\"${!:up|left|right|down}\" class=\"${2:md-fling|md-scale} ${3:md-fab-top-left|md-fab-top-right|md-fab-bottom-left|md-fab-bottom-right (container element MUST = postion:absolute || relative)}\">",
+            "  <md-fab-trigger>",
+            "    <md-button aria-label=\"${4:label}\"><md-icon icon=\"${5:svg-icon-url}.svg\"></md-icon></md-button>",
+            "  </md-fab-trigger>",
+            "  <md-fab-actions>",
+            "    <md-button aria-label=\"${6:label}\">",
+            "      <md-icon icon=\"${7:svg-icon-url}.svg\"></md-icon>",
+            "    </md-button>",
+            "    <md-button aria-label=\"${8:svg-icon-url}\">",
+            "      <md-icon icon=\"/${7:svg-icon-url}.svg\"></md-icon>",
+            "    </md-button>",
+            "  </md-fab-actions>",
+            "</md-fab-speed-dial>"
+       ],
+      "description": "angular material : md-fab-speed-dial standard"
+    },
+    "md-fab-toolbar": {
+      "prefix": "md-fab-toolbar",
+      "body": [
+            "<md-fab-toolbar md-direction=\"${!:up|left|right|down}\" class=\"${2:md-fab-top-left|md-fab-top-right|md-fab-bottom-left|md-fab-bottom-right (container element MUST = postion:absolute || relative)}\">",
+            "  <md-fab-trigger>",
+            "    <md-button aria-label=\"${4:label}\"><md-icon icon=\"${5:svg-icon-url}.svg\"></md-icon></md-button>",
+            "  </md-fab-trigger>",
+            "  <md-fab-actions>",
+            "    <md-button aria-label=\"${6:label}\">",
+            "      <md-icon icon=\"${7:svg-icon-url}.svg\"></md-icon>",
+            "    </md-button>",
+            "    <md-button aria-label=\"${8:label}\">",
+            "      <md-icon icon=\"/${7:svg-icon-url}.svg\"></md-icon>",
+            "    </md-button>",
+            "  </md-fab-actions>",
+            "</md-fab-toolbar>"
+       ],
+      "description": "angular material : md-fab-toolbar standard"
+    },
+    "single-grid-list-tile": {
+      "prefix": "grid-list-tile:single",
+      "body": [
+           "<md-grid-tile md-rowspan=\"${number}\" md-colspan=\"${number}\" md-colspan-sm=\"${number}\">",
+           "    ${content}",
+           "</md-grid-tile>"
+       ],
+      "description": "angular material : single grid list tile"
+    },
+    "grid-list-tile-with-footer": {
+      "prefix": "grid-list-tile:footer",
+      "body": [
+           "<md-grid-tile md-rowspan=\"${number}\" md-colspan=\"${number}\" md-colspan-sm=\"${number}\">",
+           "  <md-grid-tile-footer>",
+           "    ${content}",
+           "  </md-grid-tile-footer>",
+           "</md-grid-tile>"
+       ],
+      "description": "angular material : grid-list-tile-with-footer"
+    },
+    "grid-list": {
+      "prefix": "grid-list:standard",
+      "body": [
+           "<md-grid-list md-cols=\"${1:number}\" md-gutter=\"${2:number}\" md-row-height=\"${3:ratio}:${4:ration}\">",
+           "  <md-grid-tile></md-grid-tile>",
+           "</md-grid-list>"
+       ],
+      "description": "angular material : grid list with options"
+    },
     "md-icon": {
       "prefix": "md-icon",
       "body": [
@@ -206,12 +273,110 @@
        ],
       "description": "angular material : md-ink-ripple options"
     },
+    "md-input-container": {
+      "prefix": "md-input-container:single",
+      "body": [
+          "<md-input-container ${md-no-float}>",
+          "${content}",
+          "</md-input-container>"
+       ],
+      "description": "angular material : single md container. Wrapper for other input elements"
+    },
+    "input": {
+      "prefix": "md-input:single",
+      "body": [
+          "<input ${name=\"${1:name}\"}", 
+          "  ${type=\"${type}\"}",
+          "  ${ng-model=\"${lastname}\"} ",
+          "  ${required} ",
+          "  ${md-maxlength=\"${number\"}",
+          "  ${minlength=\"${number}\"}",
+          "  ${placeholder=\"${placeholder}\"}",
+          "  aria-label=\"${1:name}\"",
+          "  >"
+       ],
+      "description": "angular material : standard input"
+    },
+    "ng-messages": {
+      "prefix": "ng-messages:wrapper",
+      "body": [
+          "<div ng-messages=\"${1:formName}.${elementName}.$error\" ng-show=\"${1:formName}.${elementName}.$dirty\">",
+          "   ${content}",
+          "</div>"
+       ],
+      "description": "the wrapper for ng messages"
+    },
+    "ng-message": {
+      "prefix": "ng-message:single",
+      "body": [
+          "<div ng-message=\"${target}\">${error message content}</div>"
+       ],
+      "description": "single ng-message element"
+    },
+    "md-list-single": {
+      "prefix": "md-list:single",
+      "body": [
+          "<md-list-item ${ng-repeat=\"${item} in ${items}\"}>",
+          "  ${content}",
+          "</md-list-item>"
+       ],
+      "description": "snippet"
+    },
+    "md-select": {
+      "prefix": "md-select:standard",
+      "body": [
+            "<md-select ${ng-model=\"${model}\"} ",
+            "           ${multiple=\"true\"}",
+            "           ${md-on-open=\"${expression-open}\"}",
+            "           ${md-on-close=\"${expression-closed}\"}",
+            "           ${md-container-class=\"${className}\"}",
+            "           ${placeholder=\"${placeholder}\"}",  
+            "           ${aria-label=\"${label}\"",
+                        ">",
+            "  <md-option ng-value=\"${1:option}\" ng-repeat=\"${1:option} in ${options}\">",
+            "    {{ ${1:option} }}",
+            " </md-option>",
+            "</md-select>" 
+       ],
+      "description": "angular material : select item with options"
+    },
+    "md-list": {
+      "prefix": "md-list:standard",
+      "body": [
+            "<md-list>",
+            "  <md-list-item ${ng-repeat=\"${item} in ${items}\"}>",
+            "    ${content}",
+            "  </md-list-item>",
+            "</md-list>"
+       ],
+      "description": "angular material : standard list"
+    },
+    
     "md-whiteframe": {
       "prefix": "md-whiteframe",
       "body": [
           "md-whiteframe=\"${number (dp)}\""
        ],
       "description": "angular material : md-whiteframe options"
+    },
+    "md-slider": {
+      "prefix": "md-slider:standard",
+      "body": [
+          "<md-slider ${md-discrete} ",
+                      "${ng-model=\"${myDiscreteValue}\"}",
+                      "${step=\"${number}\"}",
+                      "${min=\"${number}\"}",
+                      "${max=\"${number}\"}",
+          "</md-slider>"
+       ],
+      "description": "angular material : standard slider"
+    },
+    "md-subheader": {
+      "prefix": "md-subheader",
+      "body": [
+          "<md-subheader>${content}</md-subheader>"
+       ],
+      "description": "angular material : subheader"
     },
     "md-swipe": {
       "prefix": "md-swipe",

@@ -32,18 +32,39 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 |`md-checkbox:full` | checkbox full options|
 | **Chip** | |
 |`md-chip:single` |  single md-chip item|
-| **Layout** | |
-|`md-layout` |  the md-content tag with layout options|
 | **Datepicker** | |
 |`md-dialog:standard` |  date picker with full options|
 | **Dialog** | |
 |`md-datepicker:full` |  standard dialog|
 | **Divider** | |
 |`md-divider` |  simple divider|
+| **Fab Speed Dial** | |
+|`md-fab-speed-dial` |  fab speed dial|
+| **Fab Toolbar** | |
+|`md-fab-toolbar` |  fab toolbar|
+| **Grid** | |
+|`grid-list-tile:single` |  single grid list tile|
+|`grid-list-tile:footer` |  single grid list tile with footer|
+|`grid-list:standard` |  grid list with options|
+| **Layout** | |
+|`md-layout` |  the md-content tag with layout options|
 | **Ink Ripple** | |
 |`md-ink-ripple` | md-ink-ripple options|
+| **Inputs** | |
+|`md-input-container:single` | single md container. Wrapper for other input elements|
+|`md-input:single` | standard input with options|
+|`md-select` | select item with options|
+|`ng-messages:wrapper` | the wrapper for ng messages|
+|`ng-message:single` | single ng-message element|
+| **List** | |
+|`md-list:single` | single list item |
+|`md-list:standard` | standard list |
 | **Whiteframe** | |
 |`md-whiteframe` | md-whiteframe options|
+| **Slider** | |
+|`md-slider:standard` | slider|
+| **Subheader** | |
+|`md-subheader` | subheader|
 | **Swipe** | |
 |`md-swipe` | swipe options|
 
