@@ -51,6 +51,8 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 |`grid-list-tile:single` |  single grid list tile|
 |`grid-list-tile:footer` |  single grid list tile with footer|
 |`grid-list:standard` |  grid list with options|
+| **Menu** | |
+|`md-menu:full` |  full options and template for menu|
 | **Layout** | |
 |`md-layout` |  the md-content tag with layout options|
 | **Ink Ripple** | |
@@ -71,8 +73,6 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 |`md-radio-button:standard` |standard radio button|
 |`md-radio-button:full` | radio button full options|
 |`md-radio-group` | radio button group|
-| **Whiteframe** | |
-|`md-whiteframe` | md-whiteframe options|
 | **Slider** | |
 |`md-slider:standard` | slider|
 | **Swtich** | |
@@ -83,6 +83,10 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 |`md-swipe` | swipe options|
 | **ToolTip** | |
 |`md-tooltip` | tooltip full options|
+| **Virtual Repeat** | |
+|`md-virtual-repeat` | virtual repeat for lists|
+| **Whiteframe** | |
+|`md-whiteframe` | md-whiteframe options|
 
 
 ## Json lint Test

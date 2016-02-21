@@ -309,6 +309,20 @@
        ],
       "description": "angular material : grid list with options"
     },
+    "me-menu": {
+      "prefix": "md-menu:full",
+      "body": [
+            "<md-menu ${md-offset=\"${offset:x} ${offset:y}\"} ${md-position-mode=\"target-right target\"}>",
+            "  <md-button aria-label=\"${label}\" class=\"${md-icon-button}\" ng-click=\"${1:ctrl}.openMenu($mdOpenMenu, $event)\" ${md-prevent-menu-close=\"md-prevent-menu-close\"}>",
+            "    <md-icon md-menu-origin md-svg-icon=\"${svg-icon-url}\"></md-icon>",
+            "  </md-button>",
+            "  <md-menu-content width=\"${number}\">",
+            "    ${content}",
+            "  </md-menu-content>",
+            "</md-menu>"
+       ],
+      "description": "angular material : full menu"
+    },
     "md-icon": {
       "prefix": "md-icon",
       "body": [
@@ -451,14 +465,6 @@
        ],
       "description": "angular material : standard list"
     },
-    
-    "md-whiteframe": {
-      "prefix": "md-whiteframe",
-      "body": [
-          "md-whiteframe=\"${number (dp)}\""
-       ],
-      "description": "angular material : md-whiteframe options"
-    },
     "md-slider": {
       "prefix": "md-slider:standard",
       "body": [
@@ -521,5 +527,19 @@
             "</md-virtual-repeat-container>"
        ],
       "description": "snippet"
+    },
+    "typography": {
+      "prefix": "md-typography",
+      "body": [
+          "md-${display-${1-4}|headline|title|subhead|body-${1-2}|caption}"
+       ],
+      "description": "angular material : typography options"
+    },
+    "md-whiteframe": {
+      "prefix": "md-whiteframe",
+      "body": [
+          "md-whiteframe=\"${number (between 1-24)}\""
+       ],
+      "description": "angular material : md-whiteframe options"
     }
 }
