@@ -380,6 +380,42 @@
        ],
       "description": "angular material : md-progress-linear"
     },
+    "md-radio-button": {
+      "prefix": "md-radio-button:standard",
+      "body": [
+          "<md-radio-button value=\"${number}\" aria-label=\"${label}\">",
+          "   ${label}",
+          "</md-radio-button>"
+       ],
+      "description": "angular material : standard radio button"
+    },
+    "md-radio-button-full": {
+      "prefix": "md-radio-button:full",
+      "body": [
+          "<md-radio-button value=\"${number}\" ",
+          "                 ${name=\"${name}\"}",
+          "                 ${value=\"${value}\"}",
+          "                 ${ngChange=\"${string}\"}",
+          "                 ${ngValue=\"${value}\"}",
+          "                 ${ngModel=\"${model}\"}",
+          "                 ${ng-repeat=\"${1:item} in ${items}\"}",
+          "                 ${md-no-ink=\"true\"}",
+          "                 aria-label=\"${label}\"",
+          ">",
+          "   ${1:item}",
+          "</md-radio-button>"
+       ],
+      "description": "angular material : radio button with full options"
+    },
+    "md-radio-group": {
+      "prefix": "md-radio-group:standard",
+      "body": [
+          "<md-radio-group ${ng-model=\"${model}\"}>",
+          "${content}",
+          "</md-radio-group>"
+       ],
+      "description": "angular material : radio button group standard"
+    },
     "md-select": {
       "prefix": "md-select:standard",
       "body": [

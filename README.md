@@ -63,9 +63,13 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 | **List** | |
 |`md-list:single` | single list item |
 |`md-list:standard` | standard list |
- **Progess** | |
+| **Progess** | |
 |`md-progress-circle` | circular progress loader|
-|`md-progress-linear"` | md-progress-linear|
+|`md-progress-linear` | md-progress-linear|
+| **Radio Button** | |
+|`md-radio-button:standard` |standard radio button|
+|`md-radio-button:full` | radio button full options|
+|`md-radio-group` | radio button group|
 | **Whiteframe** | |
 |`md-whiteframe` | md-whiteframe options|
 | **Slider** | |
