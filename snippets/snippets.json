@@ -198,6 +198,7 @@
        ],
       "description": "angular material : single md-chip"
     },
+    
     "md-layout": {
       "prefix": "md-layout",
       "body": [
@@ -305,7 +306,7 @@
     "md-icon": {
       "prefix": "md-icon",
       "body": [
-          "<md-icon md-svg-src=\"${1:url-of-icon}\" aria-label=\"${2:label}\" alt=\"${3:alternate}\"></md-icon>"
+          "<md-icon md-svg-src=\"${1:url-of-icon}\" aria-label=\"${2:label}\" class=\"s${number}\"></md-icon>"
        ],
       "description": "angular material : standard md-icon"
     },
@@ -364,6 +365,20 @@
           "</md-list-item>"
        ],
       "description": "snippet"
+    },
+    "md-progress-circle": {
+      "prefix": "md-progress-circle",
+      "body": [
+          "<md-progress-circular md-mode=\"${determinate|indeterminate}\" value=\"${value}\" ${md-diameter=\"${number}\"} ${class:\"${class}\"} aria-label=\"${label}\"></md-progress-circular>"
+       ],
+      "description": "angular material : circular progress loader"
+    },
+    "md-progress-linear": {
+      "prefix": "md-progress-linear",
+      "body": [
+          "<md-progress-linear md-mode=\"${determinate|indeterminate}\" value=\"${number}\" md-buffer-value=\"${number}\" class=\"${class}\" aria-label=\"${label}\"></md-progress-linear>"
+       ],
+      "description": "angular material : md-progress-linear"
     },
     "md-select": {
       "prefix": "md-select:standard",

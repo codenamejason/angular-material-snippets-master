@@ -17,7 +17,7 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 
 | **Shortcut Prefix** | **Description** |
 |---|---|
-| Autocomplete | |
+| **Autocomplete** | |
 |`md-autocomplete:full` | all autocomplete options|
 |`md-autocomplete:tpl` | all autocomplete options with custom template|
 | **Button** | |
@@ -63,6 +63,9 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 | **List** | |
 |`md-list:single` | single list item |
 |`md-list:standard` | standard list |
+ **Progess** | |
+|`md-progress-circle` | circular progress loader|
+|`md-progress-linear"` | md-progress-linear|
 | **Whiteframe** | |
 |`md-whiteframe` | md-whiteframe options|
 | **Slider** | |
