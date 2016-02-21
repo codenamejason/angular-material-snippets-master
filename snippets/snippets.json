@@ -80,6 +80,49 @@
         ],
         "description": "angular material : all auto complete options with custom template"
     },
+    "md-bottom-sheet": {
+      "prefix": "md-bottom-sheet:standard",
+      "body": [
+          "<md-bottom-sheet ${class=\"${md-grid}\"} ${layout=\"${column|row}\"} ${ng-cloak}>",
+          "  <div ${layout=\"${column|row}\"} ${layout-align=\"${center|end|space-around|space-between} ${start|center|end|stretch}\"}>",
+          "    ${content}",
+          "  </div>",
+          "</md-bottom-sheet>"
+       ],
+      "description": "angular material : standard bottom sheet"
+    },
+    "md-bottom-sheet-list": {
+      "prefix": "md-bottom-sheet:list",
+      "body": [          
+          "<md-bottom-sheet class=\"md-list md-has-header\" ng-cloak>",
+          "  <md-subheader>${subheader}</md-subheader>",
+          "  <md-list>",
+          "    <md-list-item ng-repeat=\"${item} in ${items}\">",
+          "       ${list content}",
+          "    </md-list-item>",
+          "  </md-list>",
+          "</md-bottom-sheet>"
+       ],
+      "description": "angular material : bottom sheet list template"
+    },
+    "md-bottom-sheet-grid": {
+      "prefix": "md-bottom-sheet:grid",
+      "body": [          
+          "<md-bottom-sheet class=\"md-grid\" layout=\"column\" ng-cloak>",
+            "<div layout=\"row\" layout-align=\"center center\">",
+            "  ${header content}",
+            "</div>",
+            "<div>",
+            "  <md-list flex layout=\"row\" layout-align=\"center center\">",
+            "    <md-list-item ng-repeat=\"${item} in ${items}\">",
+            "       ${list item content}",
+            "    </md-list-item>",
+            "  </md-list>",
+            "</div>",
+          "</md-bottom-sheet>"
+       ],
+      "description": "angular material : bottom sheet grid template"
+    },
     "md-button": {
         "prefix": "md-button:standard",
         "body": [

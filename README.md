@@ -15,9 +15,9 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 
 *Below are the currently added shortcuts*
 
-| Autocomplete | |
-|---|---|
 | **Shortcut Prefix** | **Description** |
+|---|---|
+| Autocomplete | |
 |`md-autocomplete:full` | all autocomplete options|
 |`md-autocomplete:tpl` | all autocomplete options with custom template|
 | **Button** | |
@@ -26,6 +26,10 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 |`md-button:icon` | standard button with icon|
 |`md-button:fab-icon` | fab icon button|
 |`md-button:fab-mini-icon` | mini fab icon button|
+| **Bottom Sheet** | |
+|`md-bottom-sheet:standard` | standard bottom sheet |
+|`md-bottom-sheet:list` | bottom sheet list template |
+|`md-bottom-sheet:grid` | bottom sheet grid template |
 | **Card** | |
 |`md-card:standard` | standard card|
 | **Checkbox** | |
