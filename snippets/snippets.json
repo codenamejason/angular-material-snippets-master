@@ -198,7 +198,13 @@
        ],
       "description": "angular material : single md-chip"
     },
-    
+    "md-chip-remove": {
+      "prefix": "md-chip-remove",
+      "body": [
+          "<md-chips><button md-chip-remove>${remove-title}</button></md-chips>"
+       ],
+      "description": "angular material : single md-chip"
+    },
     "md-layout": {
       "prefix": "md-layout",
       "body": [
@@ -504,5 +510,16 @@
             "</md-tooltip>"    
        ],
       "description": "angular material : tool tip full options"
+    },
+    "md-virtual-repeat": {
+      "prefix": "md-virtual-repeat",
+      "body": [
+            "<md-virtual-repeat-container ${md-top-index=\"${number}\"} ${md-auto-shrink=\"${true}\"} ${md-auto-shrink=-min\"${number}\"} ${md-orient-horizontal=\"${boolean}\"} aria-label=\"${label}\">",
+            "  <div md-virtual-repeat=\"${1:item} in ${items}\" md-item-size=\"${number}\">",
+            "     ${1:item}",
+            "  </div>",
+            "</md-virtual-repeat-container>"
+       ],
+      "description": "snippet"
     }
 }

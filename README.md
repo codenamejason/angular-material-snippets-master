@@ -36,6 +36,7 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 |`md-checkbox:full` | checkbox full options|
 | **Chip** | |
 |`md-chip:single` |  single md-chip item|
+|`md-chip-remove` |  button to remove chip|
 | **Datepicker** | |
 |`md-dialog:standard` |  date picker with full options|
 | **Dialog** | |
