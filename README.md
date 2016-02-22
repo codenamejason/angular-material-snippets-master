@@ -88,7 +88,11 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 Lint testing using [gulp-jsonlint](https://www.npmjs.com/package/gulp-jsonlint).
 
 ## RoadMap
-Depends heavily of the migration of angular material to angular2.
+ - Might be taking out all the templated snippets
+ - Planning on adding snippets for the js/typescript side of things as well mainly for the services md-dialog, md-toastr etc.
+ - I would like to make snippets for angular2 but am not sure of angular materials roadmap for this.
+
+If you would like to contribute .. fork it now \o/
 
 ## License
 
