@@ -280,8 +280,8 @@
        ],
       "description": "angular material : md-fab-toolbar standard"
     },
-    "single-grid-list-tile": {
-      "prefix": "grid-list-tile:single",
+    "md-single-grid-list-tile": {
+      "prefix": "md-grid-list-tile:single",
       "body": [
            "<md-grid-tile md-rowspan=\"${number}\" md-colspan=\"${number}\" md-colspan-sm=\"${number}\">",
            "    ${content}",
@@ -289,8 +289,8 @@
        ],
       "description": "angular material : single grid list tile"
     },
-    "grid-list-tile-with-footer": {
-      "prefix": "grid-list-tile:footer",
+    "md-grid-list-tile-with-footer": {
+      "prefix": "md-grid-list-tile:footer",
       "body": [
            "<md-grid-tile md-rowspan=\"${number}\" md-colspan=\"${number}\" md-colspan-sm=\"${number}\">",
            "  <md-grid-tile-footer>",
@@ -300,8 +300,8 @@
        ],
       "description": "angular material : grid-list-tile-with-footer"
     },
-    "grid-list": {
-      "prefix": "grid-list:standard",
+    "md-grid-list": {
+      "prefix": "md-grid-list:standard",
       "body": [
            "<md-grid-list md-cols=\"${1:number}\" md-gutter=\"${2:number}\" md-row-height=\"${3:ratio}:${4:ration}\">",
            "  <md-grid-tile></md-grid-tile>",
