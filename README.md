@@ -37,10 +37,10 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 |`md-chip:single` |  single md-chip item|
 |`md-chip-remove` |  button to remove chip|
 | **Datepicker** | |
-|`md-dialog:standard` |  date picker with full options|
-| **Dialog** | |
-|`md-datepicker:full` |  datepicker with full options |
+|`md-dialog:full` |  date picker with full options|
 |`md-datepicker:simple` |  datepicker with minimal options |
+| **Dialog** | |
+|`Dialog:full` |  datepicker with full options |
 | **Divider** | |
 |`md-divider` |  simple divider|
 | **Fab Speed Dial** | |
