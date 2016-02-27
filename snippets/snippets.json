@@ -80,6 +80,13 @@
         ],
         "description": "angular material : all auto complete options with custom template"
     },
+    "md-autofocus": {
+      "prefix": "md-autofocus",
+      "body": [
+          "md-autofocus=\"${$index == ${number}}\""
+       ],
+      "description": "angular material : md-autofocus"
+    },
     "md-bottom-sheet": {
         "prefix": "md-bottom-sheet:standard",
         "body": [
@@ -166,6 +173,42 @@
             "    <md-button>${Action 1}</md-button>",
             "    <md-button>${Action 2}</md-button>",
             "  </md-card-actions>",
+            "</md-card>"
+        ],
+        "description": "angular material : standard card"
+    },
+    "md-card-full": {
+        "prefix": "md-card:full",
+        "body": [
+            "<md-card>",
+            "  <md-card-header>",
+            "    <md-card-avatar>",
+            "      <img class=\"md-user-avatar\" src=\"${image-source}\">",
+            "    </md-card-avatar>",
+            "    <md-card-header-text>",
+            "      <span class=\"md-title\">${title}</span>",
+            "      <span class=\"md-subhead\">${sub-title}</span>",
+            "    </md-card-header-text>",
+            "  </md-card-header>",
+            "  ${<img ng-src=\"${1:iamge-source}\" class=\"md-card-image\" alt=\"${image-alt}\">}",
+            "  <md-card-title>",
+            "    <md-card-title-text>",
+            "      <span class=\"md-headline\">${card-headline}</span>",
+            "      <span class=\"md-subhead\">${card-subheadline}</span>",
+            "    </md-card-title-text>",
+            "  </md-card-title>",
+            "  <md-card-actions ${layout=\"${row|column}\"} ${layout-align=\"${3:start|center|end|space-around|space-between} ${4:start|center|end|stretch}\"}>",
+            "    <md-button>Action 1</md-button>",
+            "    <md-button>Action 2</md-button>",
+            "    <md-card-icon-actions>",
+            "      <md-button class=\"${button-class}\" aria-label=\"${label}\">",
+            "        ${content}",
+            "      </md-button>",
+            "    </md-card-icon-actions>",
+            "  </md-card-actions>",
+            "  <md-card-content>",
+            "      ${content}",
+            "  </md-card-content>",
             "</md-card>"
         ],
         "description": "angular material : standard card"
@@ -543,6 +586,75 @@
             "md-swipe-${2:top|right|bottom|left}=\"${onSwipe()}\""
         ],
         "description": "angular material :  swipe options"
+    },
+    "md-tab-label": {
+      "prefix": "md-tab:label",
+      "body": [
+          "<md-tab-label>",
+          "   ${content}",
+          "</md-tab-label>"
+       ],
+      "description": "angular material : md-tab label"
+    },
+    "md-tab-body": {
+      "prefix": "md-tab:body",
+      "body": [
+          "<md-tab-body>",
+          "   ${content}",
+          "</md-body>"
+       ],
+      "description": "angular material : md-tab body"
+    },
+    "md-tab-item:full": {
+      "prefix": "md-tab-item:full",
+      "body": [
+          "<md-tab ${label}",
+          "        ${ng-disabled=\"true\"}",
+          "        ${md-on-deselect=\"${expression}\"}",
+          "        ${md-on-select=\"${expression}\"}",
+          "        ${md-active=\"true\"}>",
+          "  ${content}",
+          "</md-tab>"
+       ],
+      "description": "angular material : single tab item"
+    },
+    "md-tab-simple": {
+      "prefix": "md-tab:simple",
+      "body": [
+         "<md-tabs>",
+         "  <md-tab>",
+         "    <md-tab-label>",
+         "      ${tab-label}",
+         "    </md-tab-label>",
+         "    <md-tab-body>",
+         "      ${tab-content}",
+         "    </md-tab-body>",
+         "  </md-tab>",
+         "</md-tabs>"
+       ],
+      "description": "angular material : simple tab template"
+    },
+     "md-tab-full": {
+      "prefix": "md-tab:full",
+      "body": [
+         "<md-tabs md-selected=\"selectedIndex\" ",
+         "         ${md-dynamic-height}",
+         "         ${md-border-bottom}",
+         "         ${md-center-tabs}",
+         "         ${md-align-tabs=\"bottom\"}",
+         "         ${md-align-tabs=\"${top|bottom}\"}",
+         "  ${<img ng-src=\"${image-path}\" ${class=\"${centered}\"}>}",
+         "  <md-tab ${ng-repeat=\"${tab} in ${tabs} | ${orderBy}:${predicate}:${reversed}\"} ${md-on-select=\"${onTabSelected(tab)}\"}>",
+         "    <md-tab-label>",
+         "      ${tab-label}",
+         "    </md-tab-label>",
+         "    <md-tab-body>",
+         "      ${tab-content}",
+         "    </md-tab-body>",
+         "  </md-tab>",
+         "</md-tabs>"
+       ],
+      "description": "angular material : simple tab template"
     },
     "md-tooltip": {
         "prefix": "md-tooltip:full",

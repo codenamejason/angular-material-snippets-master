@@ -20,6 +20,8 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 | **Autocomplete** | |
 |`md-autocomplete:full` | all autocomplete options|
 |`md-autocomplete:tpl` | all autocomplete options with custom template|
+| **AutoFocus** | |
+|`md-autofocus` | inline autofocus option|
 | **Button** | |
 |`md-button:standard` | standard button no options|
 |`md-button:full` | standard button with all options|
@@ -30,6 +32,7 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 |`md-bottom-sheet:grid` | bottom sheet grid template |
 | **Card** | |
 |`md-card:standard` | standard card|
+|`md-card:Full` | full options card|
 | **Checkbox** | |
 |`md-checkbox:full` | checkbox full options|
 |`md-checkbox:simple` | checkbox minimal options|
@@ -82,6 +85,10 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 |`md-subheader` | subheader|
 | **Swipe** | |
 |`md-swipe` | swipe options|
+| **Tabs** | |
+|`md-tab:label` | tab label|
+|`md-tab:body` | tab body|
+|`md-tab-item-full` | full tabs options|
 | **ToolTip** | |
 |`md-tooltip` | tooltip full options|
 | **Virtual Repeat** | |
