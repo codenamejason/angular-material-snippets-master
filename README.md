@@ -23,9 +23,7 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 | **Button** | |
 |`md-button:standard` | standard button no options|
 |`md-button:full` | standard button with all options|
-|`md-button:icon` | standard button with icon|
-|`md-button:fab-icon` | fab icon button|
-|`md-button:fab-mini-icon` | mini fab icon button|
+|`md-button:icon` | standard button with icon and option mini and fab|
 | **Bottom Sheet** | |
 |`md-bottom-sheet:standard` | standard bottom sheet |
 |`md-bottom-sheet:list` | bottom sheet list template |
@@ -34,6 +32,7 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 |`md-card:standard` | standard card|
 | **Checkbox** | |
 |`md-checkbox:full` | checkbox full options|
+|`md-checkbox:simple` | checkbox minimal options|
 | **Chip** | |
 |`md-chip:single` |  single md-chip item|
 |`md-chip-remove` |  button to remove chip|

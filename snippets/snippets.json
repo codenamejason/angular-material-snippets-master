@@ -173,9 +173,22 @@
      "md-checkbox": {
         "prefix": "md-checkbox:full",
         "body": [
-           "<md-checkbox ${ng-model=\"${1:model}\"} ${name=\"${2:name}\"} ${ng-true-value=\"${3:true-value}\"} ${ng-false-value=\"${4:false-value}\"} ${ng-change=\"${5:change-value}\"} ${md-no-ink=\"true\"} aria-label=\"${6:label}\"> ${6:label} <md-checkbox>"
+           "<md-checkbox ${ng-model=\"${1:model}\"}",
+           "             ${name=\"${2:name}\"}",
+           "             ${ng-true-value=\"${3:true-value}\"}",
+           "             ${ng-false-value=\"${4:false-value}\"}",
+           "             ${ng-change=\"${5:change-value}\"}",
+           "             ${md-no-ink=\"true\"}",
+           "             aria-label=\"${6:label}\"> ${6:label} <md-checkbox>"
         ],
         "description": "angular material : checkbox full options"
+    },
+    "md-checkbox-simple": {
+      "prefix": "md-checkbox:simple",
+      "body": [
+          "<md-checkbox name=\"${name}\" aria-label=\"${1:label}\">${1:label}</md-checkbox>"
+       ],
+      "description": "angular material : simple checkbox"
     },
     "md-chip": {
       "prefix": "md-chip:single",
