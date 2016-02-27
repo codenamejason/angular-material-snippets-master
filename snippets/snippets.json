@@ -109,7 +109,7 @@
       "prefix": "md-bottom-sheet:grid",
       "body": [          
           "<md-bottom-sheet class=\"md-grid\" layout=\"column\" ng-cloak>",
-            "<div layout=\"row\" layout-align=\"center center\">",
+            "<div layout=\"row\" layout-align=\"${center center}\">",
             "  ${header content}",
             "</div>",
             "<div>",
@@ -124,18 +124,24 @@
       "description": "angular material : bottom sheet grid template"
     },
     "md-button": {
-        "prefix": "md-button:standard",
+        "prefix": "md-button:simple",
         "body": [
             "<md-button aria-label=\"${1:button-label}\"> ${1:button-label} </md-button>"
         ],
-        "description": "angular material : standard button no options"
+        "description": "angular material : simple button with no options"
     },
     "md-button-full": {
         "prefix": "md-button:full",
         "body": [
-            "<md-button ${href=\"${1:url}\"} ${id=\"${2:button-id}\"} class=\"${3:button-class}\" ${ng-disabled=\"true\"} ${md-ripple-size=\"${4:full | partial | auto}\"} ${md-no-ink=\"true\"} aria-label=\"${5:button-label}\"> ${5:button-label} </md-button>"
+            "<md-button ${href=\"${1:url}\"}",
+            "           ${id=\"${2:button-id}\"}",
+            "           class=\"${3:button-class|md-primary}\"",
+            "           ${ng-disabled=\"true\"}",
+            "           ${md-ripple-size=\"${4:full | partial | auto}\"}",
+            "           ${md-no-ink=\"true\"}",
+            "           aria-label=\"${5:button-label}\"> ${5:button-label} </md-button>"
         ],
-        "description": "angular material : standard button with all options"
+        "description": "angular material : button with all options"
     },
     "md-button-icon": {
         "prefix": "md-button:icon",
