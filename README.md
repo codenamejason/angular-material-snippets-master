@@ -48,9 +48,9 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 | **Fab Toolbar** | |
 |`md-fab-toolbar` |  fab toolbar|
 | **Grid** | |
-|`grid-list-tile:single` |  single grid list tile|
-|`grid-list-tile:footer` |  single grid list tile with footer|
-|`grid-list:standard` |  grid list with options|
+|`md-grid-list-tile:single` |  single grid list tile|
+|`md-grid-list-tile:footer` |  single grid list tile with footer|
+|`md-grid-list:standard` |  grid list with options|
 | **Menu** | |
 |`md-menu:full` |  full options and template for menu|
 | **Layout** | |
