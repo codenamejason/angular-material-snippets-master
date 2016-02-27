@@ -213,7 +213,7 @@
        ],
       "description": "angular material : the md-content tag with layout options"
     },
-    "md-datepicker": {
+    "md-datepicker-full": {
       "prefix": "md-datepicker:full",
       "body": [
           "<md-datepicker ${ng-model=\"${1:model}\"}",
@@ -226,6 +226,13 @@
           "               ${ng-required=\"true\"}></md-datepicker>"
        ],
       "description": "angular material : date picker with full options"
+    },
+    "md-datepicker-simple": {
+      "prefix": "md-datepicker:simple",
+      "body": [
+          "<md-datepicker ${ng-model=\"${dateModel}\"} md-placeholder=\"${Enter Date}\"</md-datepicker>"
+       ],
+      "description": "angular material : simple date picker"
     },
     "md-dialog": {
       "prefix": "md-dialog:standard",

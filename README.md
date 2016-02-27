@@ -39,7 +39,8 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 | **Datepicker** | |
 |`md-dialog:standard` |  date picker with full options|
 | **Dialog** | |
-|`md-datepicker:full` |  standard dialog|
+|`md-datepicker:full` |  datepicker with full options |
+|`md-datepicker:simple` |  datepicker with minimal options |
 | **Divider** | |
 |`md-divider` |  simple divider|
 | **Fab Speed Dial** | |
