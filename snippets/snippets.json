@@ -234,19 +234,19 @@
        ],
       "description": "angular material : simple date picker"
     },
-    "md-dialog": {
+    "md-dialog-standard": {
       "prefix": "md-dialog:standard",
       "body": [
         "<md-dialog aria-label=\"${label}\">",
         "   <md-dialog-content>",
         "      ${content}",
         "   </md-dialog-content>",
-        " <md-dialog-actions>",
-        "   <md-button ng-click=\"closeDialog()\" class=\"md-primary\">Close Dialog</md-button>",
-        " </md-dialog-actions>",
+        "   <md-dialog-actions>",
+        "      <md-button ${ng-click=\"${closeDialog}()\"} class=\"${dialog-class}\" aria-label=\"${1:label}\">${1:label}</md-button>",
+        "   </md-dialog-actions>",
         "</md-dialog>"
        ],
-      "description": "angular material : standard dialog"
+      "description": "angular material : Dialog with full options"
     },
     "md-divider": {
       "prefix": "md-divider",
