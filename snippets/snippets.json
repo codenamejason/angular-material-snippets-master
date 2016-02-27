@@ -202,7 +202,7 @@
       "body": [
           "<md-chips><button md-chip-remove>${remove-title}</button></md-chips>"
        ],
-      "description": "angular material : single md-chip"
+      "description": "angular material : chip remove"
     },
     "md-layout": {
       "prefix": "md-layout",
@@ -216,14 +216,21 @@
     "md-datepicker": {
       "prefix": "md-datepicker:full",
       "body": [
-          "<md-datepicker ${ng-model=\"${1:model}\"} ${ng-ng-change=\"${2:expression}\"} ${ng-min-date=\"${3:Date}\"}  ${ng-max-date=\"${4:Date}\"}  ${ng-date-filter=\"${5:function(Date): boolean}\"} ${md-placeholder=\"${6:String}\"} ${ng-disabled=\"true\"} ${ng-required=\"true\"}></md-datepicker>"
+          "<md-datepicker ${ng-model=\"${1:model}\"}",
+          "               ${ng-ng-change=\"${2:expression}\"}",
+          "               ${ng-min-date=\"${3:Date}\"}",
+          "               ${ng-max-date=\"${4:Date}\"}",
+          "               ${ng-date-filter=\"${5:function(Date): boolean}\"}",
+          "               ${md-placeholder=\"${6:String}\"}",
+          "               ${ng-disabled=\"true\"}",
+          "               ${ng-required=\"true\"}></md-datepicker>"
        ],
       "description": "angular material : date picker with full options"
     },
     "md-dialog": {
       "prefix": "md-dialog:standard",
       "body": [
-        "<md-dialog aria-label=\"${}\">",
+        "<md-dialog aria-label=\"${label}\">",
         "   <md-dialog-content>",
         "      ${content}",
         "   </md-dialog-content>",
