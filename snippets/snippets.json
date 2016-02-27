@@ -144,34 +144,14 @@
         "description": "angular material : button with all options"
     },
     "md-button-icon": {
-        "prefix": "md-button:icon",
-        "body": [
-            "<md-button aria-label=\"${1:button-label}\">",
-            "   <md-icon md-svg-src=\"${your/icon}.svg\"></md-icon>",
-            "   ${1:button-label}",
-            "</md-button>"
-        ],
-        "description": "angular material : standard button with icon"
-    },
-    "md-button-fab": {
-        "prefix": "md-button:fab-icon",
-        "body": [
-            "<md-button aria-label=\"${1:button-label}\" class=\"md-fab\">",
-            "   <md-icon md-svg-src=\"${your/icon}.svg\"></md-icon>",
-            "   ${1:button-label}",
-            "</md-button>"
-        ],
-        "description": "angular material : fab icon button"
-    },
-    "md-button-mini-fab": {
-        "prefix": "md-button:fab-mini-icon",
-        "body": [
-            "<md-button aria-label=\"${1:button-label}\" class=\"md-mini\">",
-            "   <md-icon md-svg-src=\"${your/icon}.svg\"></md-icon>",
-            "   ${1:button-label}",
-            "</md-button>"
-        ],
-        "description": "angular material : mini fab icon button"
+      "prefix": "md-button:icon",
+      "body": [
+          "<md-button aria-label=\"${1:button-label}\" ${class=\"${md-mini|md-fab}\"}>",
+          "   <md-icon md-svg-src=\"${your/icon}.svg\"></md-icon>",
+          "   ${1:button-label}",
+          "</md-button>"
+       ],
+      "description": "angular material : button with icon class options for mini or fab"
     },
      "md-card": {
         "prefix": "md-card:standard",
