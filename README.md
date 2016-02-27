@@ -53,6 +53,7 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 |`md-grid-list:standard` |  grid list with options|
 | **Menu** | |
 |`md-menu:full` |  full options and template for menu|
+|`md-menu:simple` |  simple template for menu|
 | **Layout** | |
 |`md-layout` |  the md-content tag with layout options|
 | **Ink Ripple** | |

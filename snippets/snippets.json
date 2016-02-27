@@ -81,34 +81,34 @@
         "description": "angular material : all auto complete options with custom template"
     },
     "md-bottom-sheet": {
-      "prefix": "md-bottom-sheet:standard",
-      "body": [
-          "<md-bottom-sheet ${class=\"${md-grid}\"} ${1:layout=\"${2:column|row}\"} ${ng-cloak}>",
-          "  <div ${3:layout=\"${4:column|row}\"} ${layout-align=\"${center|end|space-around|space-between} ${start|center|end|stretch}\"}>",
-          "    ${content}",
-          "  </div>",
-          "</md-bottom-sheet>"
-       ],
-      "description": "angular material : standard bottom sheet"
+        "prefix": "md-bottom-sheet:standard",
+        "body": [
+            "<md-bottom-sheet ${class=\"${md-grid}\"} ${1:layout=\"${2:column|row}\"} ${ng-cloak}>",
+            "  <div ${3:layout=\"${4:column|row}\"} ${layout-align=\"${center|end|space-around|space-between} ${start|center|end|stretch}\"}>",
+            "    ${content}",
+            "  </div>",
+            "</md-bottom-sheet>"
+        ],
+        "description": "angular material : standard bottom sheet"
     },
     "md-bottom-sheet-list": {
-      "prefix": "md-bottom-sheet:list",
-      "body": [          
-          "<md-bottom-sheet class=\"md-list md-has-header\" ng-cloak>",
-          "  <md-subheader>${subheader}</md-subheader>",
-          "  <md-list>",
-          "    <md-list-item ng-repeat=\"${item} in ${items}\">",
-          "       ${list content}",
-          "    </md-list-item>",
-          "  </md-list>",
-          "</md-bottom-sheet>"
-       ],
-      "description": "angular material : bottom sheet list template"
+        "prefix": "md-bottom-sheet:list",
+        "body": [
+            "<md-bottom-sheet class=\"md-list md-has-header\" ng-cloak>",
+            "  <md-subheader>${subheader}</md-subheader>",
+            "  <md-list>",
+            "    <md-list-item ng-repeat=\"${item} in ${items}\">",
+            "       ${list content}",
+            "    </md-list-item>",
+            "  </md-list>",
+            "</md-bottom-sheet>"
+        ],
+        "description": "angular material : bottom sheet list template"
     },
     "md-bottom-sheet-grid": {
-      "prefix": "md-bottom-sheet:grid",
-      "body": [          
-          "<md-bottom-sheet class=\"md-grid\" layout=\"column\" ng-cloak>",
+        "prefix": "md-bottom-sheet:grid",
+        "body": [
+            "<md-bottom-sheet class=\"md-grid\" layout=\"column\" ng-cloak>",
             "<div layout=\"row\" layout-align=\"${center center}\">",
             "  ${header content}",
             "</div>",
@@ -119,9 +119,9 @@
             "    </md-list-item>",
             "  </md-list>",
             "</div>",
-          "</md-bottom-sheet>"
-       ],
-      "description": "angular material : bottom sheet grid template"
+            "</md-bottom-sheet>"
+        ],
+        "description": "angular material : bottom sheet grid template"
     },
     "md-button": {
         "prefix": "md-button:simple",
@@ -144,16 +144,16 @@
         "description": "angular material : button with all options"
     },
     "md-button-icon": {
-      "prefix": "md-button:icon",
-      "body": [
-          "<md-button aria-label=\"${1:button-label}\" ${class=\"${md-mini|md-fab}\"}>",
-          "   <md-icon md-svg-src=\"${your/icon}.svg\"></md-icon>",
-          "   ${1:button-label}",
-          "</md-button>"
-       ],
-      "description": "angular material : button with icon class options for mini or fab"
+        "prefix": "md-button:icon",
+        "body": [
+            "<md-button aria-label=\"${1:button-label}\" ${class=\"${md-mini|md-fab}\"}>",
+            "   <md-icon md-svg-src=\"${your/icon}.svg\"></md-icon>",
+            "   ${1:button-label}",
+            "</md-button>"
+        ],
+        "description": "angular material : button with icon class options for mini or fab"
     },
-     "md-card": {
+    "md-card": {
         "prefix": "md-card:standard",
         "body": [
             "<md-card>",
@@ -170,94 +170,94 @@
         ],
         "description": "angular material : standard card"
     },
-     "md-checkbox": {
+    "md-checkbox": {
         "prefix": "md-checkbox:full",
         "body": [
-           "<md-checkbox ${ng-model=\"${1:model}\"}",
-           "             ${name=\"${2:name}\"}",
-           "             ${ng-true-value=\"${3:true-value}\"}",
-           "             ${ng-false-value=\"${4:false-value}\"}",
-           "             ${ng-change=\"${5:change-value}\"}",
-           "             ${md-no-ink=\"true\"}",
-           "             aria-label=\"${6:label}\"> ${6:label} <md-checkbox>"
+            "<md-checkbox ${ng-model=\"${1:model}\"}",
+            "             ${name=\"${2:name}\"}",
+            "             ${ng-true-value=\"${3:true-value}\"}",
+            "             ${ng-false-value=\"${4:false-value}\"}",
+            "             ${ng-change=\"${5:change-value}\"}",
+            "             ${md-no-ink=\"true\"}",
+            "             aria-label=\"${6:label}\"> ${6:label} <md-checkbox>"
         ],
         "description": "angular material : checkbox full options"
     },
     "md-checkbox-simple": {
-      "prefix": "md-checkbox:simple",
-      "body": [
-          "<md-checkbox name=\"${name}\" aria-label=\"${1:label}\">${1:label}</md-checkbox>"
-       ],
-      "description": "angular material : simple checkbox"
+        "prefix": "md-checkbox:simple",
+        "body": [
+            "<md-checkbox name=\"${name}\" aria-label=\"${1:label}\">${1:label}</md-checkbox>"
+        ],
+        "description": "angular material : simple checkbox"
     },
     "md-chip": {
-      "prefix": "md-chip:single",
-      "body": [
-          "<md-chip>{{$chip}}</md-chip>"
-       ],
-      "description": "angular material : single md-chip"
+        "prefix": "md-chip:single",
+        "body": [
+            "<md-chip>{{$chip}}</md-chip>"
+        ],
+        "description": "angular material : single md-chip"
     },
     "md-chip-remove": {
-      "prefix": "md-chip-remove",
-      "body": [
-          "<md-chips><button md-chip-remove>${remove-title}</button></md-chips>"
-       ],
-      "description": "angular material : chip remove"
+        "prefix": "md-chip-remove",
+        "body": [
+            "<md-chips><button md-chip-remove>${remove-title}</button></md-chips>"
+        ],
+        "description": "angular material : chip remove"
     },
     "md-layout": {
-      "prefix": "md-layout",
-      "body": [
-          "<md-content layout-${padding|fill|wrap|nowrap|margin} ${layout=\"${2:row | column}\"} ${layout-align=\"${3:start|center|end|space-around|space-between} ${4:start|center|end|stretch}\"}>",
-          "  ${5:content}",
-          "</md-content>"
-       ],
-      "description": "angular material : the md-content tag with layout options"
+        "prefix": "md-layout",
+        "body": [
+            "<md-content layout-${padding|fill|wrap|nowrap|margin} ${layout=\"${2:row | column}\"} ${layout-align=\"${3:start|center|end|space-around|space-between} ${4:start|center|end|stretch}\"}>",
+            "  ${5:content}",
+            "</md-content>"
+        ],
+        "description": "angular material : the md-content tag with layout options"
     },
     "md-datepicker-full": {
-      "prefix": "md-datepicker:full",
-      "body": [
-          "<md-datepicker ${ng-model=\"${1:model}\"}",
-          "               ${ng-ng-change=\"${2:expression}\"}",
-          "               ${ng-min-date=\"${3:Date}\"}",
-          "               ${ng-max-date=\"${4:Date}\"}",
-          "               ${ng-date-filter=\"${5:function(Date): boolean}\"}",
-          "               ${md-placeholder=\"${6:String}\"}",
-          "               ${ng-disabled=\"true\"}",
-          "               ${ng-required=\"true\"}></md-datepicker>"
-       ],
-      "description": "angular material : date picker with full options"
+        "prefix": "md-datepicker:full",
+        "body": [
+            "<md-datepicker ${ng-model=\"${1:model}\"}",
+            "               ${ng-ng-change=\"${2:expression}\"}",
+            "               ${ng-min-date=\"${3:Date}\"}",
+            "               ${ng-max-date=\"${4:Date}\"}",
+            "               ${ng-date-filter=\"${5:function(Date): boolean}\"}",
+            "               ${md-placeholder=\"${6:String}\"}",
+            "               ${ng-disabled=\"true\"}",
+            "               ${ng-required=\"true\"}></md-datepicker>"
+        ],
+        "description": "angular material : date picker with full options"
     },
     "md-datepicker-simple": {
-      "prefix": "md-datepicker:simple",
-      "body": [
-          "<md-datepicker ${ng-model=\"${dateModel}\"} md-placeholder=\"${Enter Date}\"</md-datepicker>"
-       ],
-      "description": "angular material : simple date picker"
+        "prefix": "md-datepicker:simple",
+        "body": [
+            "<md-datepicker ${ng-model=\"${dateModel}\"} md-placeholder=\"${Enter Date}\"</md-datepicker>"
+        ],
+        "description": "angular material : simple date picker"
     },
     "md-dialog-standard": {
-      "prefix": "md-dialog:standard",
-      "body": [
-        "<md-dialog aria-label=\"${label}\">",
-        "   <md-dialog-content>",
-        "      ${content}",
-        "   </md-dialog-content>",
-        "   <md-dialog-actions>",
-        "      <md-button ${ng-click=\"${closeDialog}()\"} class=\"${dialog-class}\" aria-label=\"${1:label}\">${1:label}</md-button>",
-        "   </md-dialog-actions>",
-        "</md-dialog>"
-       ],
-      "description": "angular material : Dialog with full options"
+        "prefix": "md-dialog:standard",
+        "body": [
+            "<md-dialog aria-label=\"${label}\">",
+            "   <md-dialog-content>",
+            "      ${content}",
+            "   </md-dialog-content>",
+            "   <md-dialog-actions>",
+            "      <md-button ${ng-click=\"${closeDialog}()\"} class=\"${dialog-class}\" aria-label=\"${1:label}\">${1:label}</md-button>",
+            "   </md-dialog-actions>",
+            "</md-dialog>"
+        ],
+        "description": "angular material : Dialog with full options"
     },
     "md-divider": {
-      "prefix": "md-divider",
-      "body": [
-          "<md-divider ${md-inset}></md-divider>"
-       ],
-      "description": "angular material : divider"
+        "prefix": "md-divider",
+        "body": [
+            "<md-divider ${md-inset}></md-divider>"
+        ],
+        "description": "angular material : divider"
     },
     "md-fab-speed-dial": {
-      "prefix": "md-fab-speed-dial",
-      "body": [
+        "prefix": "md-fab-speed-dial",
+        "body": [
             "<md-fab-speed-dial md-direction=\"${!:up|left|right|down}\" class=\"${2:md-fling|md-scale} ${3:md-fab-top-left|md-fab-top-right|md-fab-bottom-left|md-fab-bottom-right (container element MUST = postion:absolute || relative)}\">",
             "  <md-fab-trigger>",
             "    <md-button aria-label=\"${4:label}\"><md-icon icon=\"${5:svg-icon-url}.svg\"></md-icon></md-button>",
@@ -271,12 +271,12 @@
             "    </md-button>",
             "  </md-fab-actions>",
             "</md-fab-speed-dial>"
-       ],
-      "description": "angular material : md-fab-speed-dial standard"
+        ],
+        "description": "angular material : md-fab-speed-dial standard"
     },
-    "md-fab-toolbar": {
-      "prefix": "md-fab-toolbar",
-      "body": [
+    "md-fab-toolbar:full": {
+        "prefix": "md-fab-toolbar:full",
+        "body": [
             "<md-fab-toolbar md-direction=\"${!:up|left|right|down}\" class=\"${2:md-fab-top-left|md-fab-top-right|md-fab-bottom-left|md-fab-bottom-right (container element MUST = postion:absolute || relative)}\">",
             "  <md-fab-trigger>",
             "    <md-button aria-label=\"${4:label}\"><md-icon icon=\"${5:svg-icon-url}.svg\"></md-icon></md-button>",
@@ -290,41 +290,55 @@
             "    </md-button>",
             "  </md-fab-actions>",
             "</md-fab-toolbar>"
-       ],
-      "description": "angular material : md-fab-toolbar standard"
+        ],
+        "description": "angular material : md-fab-toolbar standard"
     },
     "md-single-grid-list-tile": {
-      "prefix": "md-grid-list-tile:single",
-      "body": [
-           "<md-grid-tile md-rowspan=\"${number}\" md-colspan=\"${number}\" md-colspan-sm=\"${number}\">",
-           "    ${content}",
-           "</md-grid-tile>"
-       ],
-      "description": "angular material : single grid list tile"
+        "prefix": "md-grid-list-tile:single",
+        "body": [
+            "<md-grid-tile md-rowspan=\"${number}\" md-colspan=\"${number}\" md-colspan-sm=\"${number}\">",
+            "    ${content}",
+            "</md-grid-tile>"
+        ],
+        "description": "angular material : single grid list tile"
     },
     "md-grid-list-tile-with-footer": {
-      "prefix": "md-grid-list-tile:footer",
-      "body": [
-           "<md-grid-tile md-rowspan=\"${number}\" md-colspan=\"${number}\" md-colspan-sm=\"${number}\">",
-           "  <md-grid-tile-footer>",
-           "    ${content}",
-           "  </md-grid-tile-footer>",
-           "</md-grid-tile>"
-       ],
-      "description": "angular material : grid-list-tile-with-footer"
+        "prefix": "md-grid-list-tile:footer",
+        "body": [
+            "<md-grid-tile md-rowspan=\"${number}\" md-colspan=\"${number}\" md-colspan-sm=\"${number}\">",
+            "  <md-grid-tile-footer>",
+            "    ${content}",
+            "  </md-grid-tile-footer>",
+            "</md-grid-tile>"
+        ],
+        "description": "angular material : grid-list-tile-with-footer"
     },
     "md-grid-list": {
-      "prefix": "md-grid-list:standard",
-      "body": [
-           "<md-grid-list md-cols=\"${1:number}\" md-gutter=\"${2:number}\" md-row-height=\"${3:ratio}:${4:ration}\">",
-           "  <md-grid-tile></md-grid-tile>",
-           "</md-grid-list>"
-       ],
-      "description": "angular material : grid list with options"
+        "prefix": "md-grid-list:standard",
+        "body": [
+            "<md-grid-list md-cols=\"${1:number}\" md-gutter=\"${2:number}\" md-row-height=\"${3:ratio}:${4:ration}\">",
+            "  <md-grid-tile></md-grid-tile>",
+            "</md-grid-list>"
+        ],
+        "description": "angular material : grid list with options"
     },
-    "me-menu": {
-      "prefix": "md-menu:full",
-      "body": [
+    "md-menu-standard": {
+        "prefix": "md-menu:simple",
+        "body": [
+            "<md-menu>",
+            " <md-button ng-click=\"$mdOpenMenu($event)\" ${class=\"${md-icon-button}\" aria-label=\"${1:label}\">",
+            "   ${1:label}",
+            " </md-button>",
+            " <md-menu-content>",
+            "   ${content}",
+            " </md-menu-content>",
+            "</md-menu>"
+        ],
+        "description": "angular-material : standard menu"
+    },
+    "md-menu-full": {
+        "prefix": "md-menu:full",
+        "body": [
             "<md-menu ${md-offset=\"${offset:x} ${offset:y}\"} ${md-position-mode=\"target-right target\"}>",
             "  <md-button aria-label=\"${label}\" class=\"${md-icon-button}\" ng-click=\"${1:ctrl}.openMenu($mdOpenMenu, $event)\" ${md-prevent-menu-close=\"md-prevent-menu-close\"}>",
             "    <md-icon md-menu-origin md-svg-icon=\"${svg-icon-url}\"></md-icon>",
@@ -333,226 +347,242 @@
             "    ${content}",
             "  </md-menu-content>",
             "</md-menu>"
-       ],
-      "description": "angular material : full menu"
+        ],
+        "description": "angular material : full menu"
     },
     "md-icon": {
-      "prefix": "md-icon",
-      "body": [
-          "<md-icon md-svg-src=\"${1:url-of-icon}\" aria-label=\"${2:label}\" class=\"s${number}\"></md-icon>"
-       ],
-      "description": "angular material : standard md-icon"
+        "prefix": "md-icon",
+        "body": [
+            "<md-icon md-svg-src=\"${1:url-of-icon}\" aria-label=\"${2:label}\" class=\"s${number}\"></md-icon>"
+        ],
+        "description": "angular material : standard md-icon"
     },
     "md-ink-ripple": {
-      "prefix": "md-ink-ripple",
-      "body": [
-          "md-ink-ripple=\"{{ string (color) | boolean }}\""
-       ],
-      "description": "angular material : md-ink-ripple options"
+        "prefix": "md-ink-ripple",
+        "body": [
+            "md-ink-ripple=\"{{ string (color) | boolean }}\""
+        ],
+        "description": "angular material : md-ink-ripple options"
     },
     "md-input-container": {
-      "prefix": "md-input-container:single",
-      "body": [
-          "<md-input-container ${md-no-float}>",
-          "${content}",
-          "</md-input-container>"
-       ],
-      "description": "angular material : single md container. Wrapper for other input elements"
+        "prefix": "md-input-container:single",
+        "body": [
+            "<md-input-container ${md-no-float}>",
+            "   ${content}",
+            "</md-input-container>"
+        ],
+        "description": "angular material : single md container. Wrapper for other input elements"
     },
     "input": {
-      "prefix": "md-input:single",
-      "body": [
-          "<input ${name=\"${1:name}\"}", 
-          "  ${type=\"${type}\"}",
-          "  ${ng-model=\"${lastname}\"} ",
-          "  ${required} ",
-          "  ${md-maxlength=\"${number\"}",
-          "  ${minlength=\"${number}\"}",
-          "  ${placeholder=\"${placeholder}\"}",
-          "  aria-label=\"${1:name}\"",
-          "  >"
-       ],
-      "description": "angular material : standard input"
+        "prefix": "md-input:single",
+        "body": [
+            "<input ${name=\"${1:name}\"}",
+            "       ${type=\"${type}\"}",
+            "       ${ng-model=\"${lastname}\"} ",
+            "       ${required} ",
+            "       ${md-maxlength=\"${number\"}",
+            "       ${minlength=\"${number}\"}",
+            "       ${placeholder=\"${placeholder}\"}",
+            "       aria-label=\"${1:name}\">"
+        ],
+        "description": "angular material : standard input"
     },
     "ng-messages": {
-      "prefix": "ng-messages:wrapper",
-      "body": [
-          "<div ng-messages=\"${1:formName}.${elementName}.$error\" ng-show=\"${1:formName}.${elementName}.$dirty\">",
-          "   ${content}",
-          "</div>"
-       ],
-      "description": "the wrapper for ng messages"
+        "prefix": "ng-messages:wrapper",
+        "body": [
+            "<div ng-messages=\"${1:formName}.${elementName}.$error\" ng-show=\"${1:formName}.${elementName}.$dirty\">",
+            "   ${content}",
+            "</div>"
+        ],
+        "description": "the wrapper for ng messages"
     },
     "ng-message": {
-      "prefix": "ng-message:single",
-      "body": [
-          "<div ng-message=\"${target}\">${error message content}</div>"
-       ],
-      "description": "single ng-message element"
+        "prefix": "ng-message:single",
+        "body": [
+            "<div ng-message=\"${target}\">${error message content}</div>"
+        ],
+        "description": "single ng-message element"
     },
     "md-list-single": {
-      "prefix": "md-list:single",
-      "body": [
-          "<md-list-item ${ng-repeat=\"${item} in ${items}\"}>",
-          "  ${content}",
-          "</md-list-item>"
-       ],
-      "description": "snippet"
+        "prefix": "md-list:single",
+        "body": [
+            "<md-list-item ${ng-repeat=\"${item} in ${items}\"}>",
+            "  ${content}",
+            "</md-list-item>"
+        ],
+        "description": "snippet"
     },
     "md-progress-circle": {
-      "prefix": "md-progress-circle",
-      "body": [
-          "<md-progress-circular md-mode=\"${determinate|indeterminate}\" value=\"${value}\" ${md-diameter=\"${number}\"} ${class:\"${class}\"} aria-label=\"${label}\"></md-progress-circular>"
-       ],
-      "description": "angular material : circular progress loader"
+        "prefix": "md-progress-circle",
+        "body": [
+            "<md-progress-circular ${class:\"${class}\"}",
+            "                      md-mode=\"${determinate|indeterminate}\"",
+            "                      value=\"${value}\"",
+            "                      ${md-diameter=\"${number}\"}",
+            "                      aria-label=\"${label}\">",
+            "</md-progress-circular>"
+        ],
+        "description": "angular material : circular progress loader"
     },
     "md-progress-linear": {
-      "prefix": "md-progress-linear",
-      "body": [
-          "<md-progress-linear md-mode=\"${determinate|indeterminate}\" value=\"${number}\" md-buffer-value=\"${number}\" class=\"${class}\" aria-label=\"${label}\"></md-progress-linear>"
-       ],
-      "description": "angular material : md-progress-linear"
+        "prefix": "md-progress-linear",
+        "body": [
+            "<md-progress-linear class=\"${class}\"",
+            "                    md-mode=\"${determinate|indeterminate}\"",
+            "                    value=\"${number}\"",
+            "                    md-buffer-value=\"${number}\"", 
+            "                    class=\"${class}\"",
+            "                    aria-label=\"${label}\">",
+            "</md-progress-linear>"
+        ],
+        "description": "angular material : md-progress-linear"
     },
     "md-radio-button": {
-      "prefix": "md-radio-button:standard",
-      "body": [
-          "<md-radio-button value=\"${number}\" aria-label=\"${label}\">",
-          "   ${label}",
-          "</md-radio-button>"
-       ],
-      "description": "angular material : standard radio button"
+        "prefix": "md-radio-button:standard",
+        "body": [
+            "<md-radio-button value=\"${number}\" aria-label=\"${label}\">",
+            "   ${label}",
+            "</md-radio-button>"
+        ],
+        "description": "angular material : standard radio button"
     },
     "md-radio-button-full": {
-      "prefix": "md-radio-button:full",
-      "body": [
-          "<md-radio-button value=\"${number}\" ",
-          "                 ${name=\"${name}\"}",
-          "                 ${value=\"${value}\"}",
-          "                 ${ngChange=\"${string}\"}",
-          "                 ${ngValue=\"${value}\"}",
-          "                 ${ngModel=\"${model}\"}",
-          "                 ${ng-repeat=\"${1:item} in ${items}\"}",
-          "                 ${md-no-ink=\"true\"}",
-          "                 aria-label=\"${label}\"",
-          ">",
-          "   ${1:item}",
-          "</md-radio-button>"
-       ],
-      "description": "angular material : radio button with full options"
+        "prefix": "md-radio-button:full",
+        "body": [
+            "<md-radio-button value=\"${number}\" ",
+            "                 ${name=\"${name}\"}",
+            "                 ${value=\"${value}\"}",
+            "                 ${ngChange=\"${string}\"}",
+            "                 ${ngValue=\"${value}\"}",
+            "                 ${ngModel=\"${model}\"}",
+            "                 ${ng-repeat=\"${1:item} in ${items}\"}",
+            "                 ${md-no-ink=\"true\"}",
+            "                 aria-label=\"${label}\">",
+            "   ${1:item}",
+            "</md-radio-button>"
+        ],
+        "description": "angular material : radio button with full options"
     },
     "md-radio-group": {
-      "prefix": "md-radio-group:standard",
-      "body": [
-          "<md-radio-group ${ng-model=\"${model}\"}>",
-          "${content}",
-          "</md-radio-group>"
-       ],
-      "description": "angular material : radio button group standard"
+        "prefix": "md-radio-group:standard",
+        "body": [
+            "<md-radio-group ${ng-model=\"${model}\"}>",
+            "   ${content}",
+            "</md-radio-group>"
+        ],
+        "description": "angular material : radio button group standard"
     },
     "md-select": {
-      "prefix": "md-select:standard",
-      "body": [
+        "prefix": "md-select:standard",
+        "body": [
             "<md-select ${ng-model=\"${model}\"} ",
             "           ${multiple=\"true\"}",
             "           ${md-on-open=\"${expression-open}\"}",
             "           ${md-on-close=\"${expression-closed}\"}",
             "           ${md-container-class=\"${className}\"}",
-            "           ${placeholder=\"${placeholder}\"}",  
+            "           ${placeholder=\"${placeholder}\"}",
             "           ${aria-label=\"${label}\"",
-                        ">",
+            ">",
             "  <md-option ng-value=\"${1:option}\" ng-repeat=\"${1:option} in ${options}\">",
             "    {{ ${1:option} }}",
             " </md-option>",
-            "</md-select>" 
-       ],
-      "description": "angular material : select item with options"
+            "</md-select>"
+        ],
+        "description": "angular material : select item with options"
     },
     "md-list": {
-      "prefix": "md-list:standard",
-      "body": [
+        "prefix": "md-list:standard",
+        "body": [
             "<md-list>",
             "  <md-list-item ${ng-repeat=\"${item} in ${items}\"}>",
             "    ${content}",
             "  </md-list-item>",
             "</md-list>"
-       ],
-      "description": "angular material : standard list"
+        ],
+        "description": "angular material : standard list"
     },
     "md-slider": {
-      "prefix": "md-slider:standard",
-      "body": [
-          "<md-slider ${md-discrete} ",
-                      "${ng-model=\"${myDiscreteValue}\"}",
-                      "${step=\"${number}\"}",
-                      "${min=\"${number}\"}",
-                      "${max=\"${number}\"}",
-          "</md-slider>"
-       ],
-      "description": "angular material : standard slider"
+        "prefix": "md-slider:standard",
+        "body": [
+            "<md-slider ${md-discrete} ",
+            "           ${ng-model=\"${myDiscreteValue}\"}",
+            "           ${step=\"${number}\"}",
+            "           ${min=\"${number}\"}",
+            "           ${max=\"${number}\"}",
+            "</md-slider>"
+        ],
+        "description": "angular material : standard slider"
     },
     "md-switch": {
-      "prefix": "md-switch:full",
-      "body": [
+        "prefix": "md-switch:full",
+        "body": [
             "<md-switch ${md-no-ink}",
-            "           name=${name}", 
+            "           name=${name}",
             "           ${ng-true-value=\"${expression}\"}",
             "           ${ng-false-value=\"${expression}\"}",
             "           ${ng-change=\"${string}\"}",
             "           ${ng-disabled=\"${expression}\"}",
             "           ${ng-model=\"${model}\"}",
             "           aria-label=\"{label}\"",
-                        ">",
+            ">",
             "  ${content}",
             "</md-switch>"
-       ],
-      "description": "angular material : switch full options"
+        ],
+        "description": "angular material : switch full options"
     },
     "md-subheader": {
-      "prefix": "md-subheader",
-      "body": [
-          "<md-subheader>${content}</md-subheader>"
-       ],
-      "description": "angular material : subheader"
+        "prefix": "md-subheader",
+        "body": [
+            "<md-subheader>${content}</md-subheader>"
+        ],
+        "description": "angular material : subheader"
     },
     "md-swipe": {
-      "prefix": "md-swipe",
-      "body": [
-          "md-swipe-${2:top|right|bottom|left}=\"${onSwipe()}\""
-       ],
-      "description": "angular material :  swipe options"
+        "prefix": "md-swipe",
+        "body": [
+            "md-swipe-${2:top|right|bottom|left}=\"${onSwipe()}\""
+        ],
+        "description": "angular material :  swipe options"
     },
     "md-tooltip": {
-      "prefix": "md-tooltip:full",
-      "body": [
-            "<md-tooltip ${md-visible=\"${expression}\"} ${md-delay=\"${number}\"} ${md-autohide=\"${boolean}\"} ${md-direction=${string}}>",
+        "prefix": "md-tooltip:full",
+        "body": [
+            "<md-tooltip ${md-visible=\"${expression}\"}", 
+            "            ${md-delay=\"${number}\"}",
+            "            ${md-autohide=\"${boolean}\"}",
+            "            ${md-direction=${string}}>",
             "  ${content}",
-            "</md-tooltip>"    
-       ],
-      "description": "angular material : tool tip full options"
+            "</md-tooltip>"
+        ],
+        "description": "angular material : tool tip full options"
     },
     "md-virtual-repeat": {
-      "prefix": "md-virtual-repeat",
-      "body": [
-            "<md-virtual-repeat-container ${md-top-index=\"${number}\"} ${md-auto-shrink=\"${true}\"} ${md-auto-shrink=-min\"${number}\"} ${md-orient-horizontal=\"${boolean}\"} aria-label=\"${label}\">",
+        "prefix": "md-virtual-repeat",
+        "body": [
+            "<md-virtual-repeat-container ${md-top-index=\"${number}\"}",
+            "                             ${md-auto-shrink=\"${true}\"}",
+            "                             ${md-auto-shrink=-min\"${number}\"}",
+            "                             ${md-orient-horizontal=\"${boolean}\"}",
+            "                             aria-label=\"${label}\">",
             "  <div md-virtual-repeat=\"${1:item} in ${items}\" md-item-size=\"${number}\">",
             "     ${1:item}",
             "  </div>",
             "</md-virtual-repeat-container>"
-       ],
-      "description": "snippet"
+        ],
+        "description": "snippet"
     },
     "typography": {
-      "prefix": "md-typography",
-      "body": [
-          "md-${display-${1-4}|headline|title|subhead|body-${1-2}|caption}"
-       ],
-      "description": "angular material : typography options"
+        "prefix": "md-typography",
+        "body": [
+            "md-${display-${1-4}|headline|title|subhead|body-${1-2}|caption}"
+        ],
+        "description": "angular material : typography options"
     },
     "md-whiteframe": {
-      "prefix": "md-whiteframe",
-      "body": [
-          "md-whiteframe=\"${number (between 1-24)}\""
-       ],
-      "description": "angular material : md-whiteframe options"
+        "prefix": "md-whiteframe",
+        "body": [
+            "md-whiteframe=\"${number (between 1-24)}\""
+        ],
+        "description": "angular material : md-whiteframe options"
     }
 }
