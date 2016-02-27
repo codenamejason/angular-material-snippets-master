@@ -88,7 +88,9 @@ A set of [Angular Material](https://material.angularjs.org/latest) Snippets for 
 | **Tabs** | |
 |`md-tab:label` | tab label|
 |`md-tab:body` | tab body|
-|`md-tab-item-full` | full tabs options|
+|`md-tab-item:full` | full tabs options|
+|`md-tab:simple` | simple tab template|
+|`md-tab:full` | full tab template|
 | **ToolTip** | |
 |`md-tooltip` | tooltip full options|
 | **Virtual Repeat** | |
